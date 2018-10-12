@@ -1,0 +1,4 @@
+##缺失值处理。 
+#处理x中的缺失值 imp=Imputer(strategy='most_frequent') x=imp.fit_transform(x) x=pd.DataFrame(x) 
+我是使用众数来填充的 sklearn中有封装好的方法 可以选择平均数，众数，中位数。 
+from sklearn.preprocessing import StandardScaler,Imputer
